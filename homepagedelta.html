@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homepage</title>
+    <style>
+
+        
+        
+        body{
+            background-color: black;
+        }    
+          
+        
+        .homepage{
+            
+            display:flex;
+            flex-direction: column;
+            gap: 30px;
+            justify-content: center;
+            align-items: center;
+           
+            overflow: hidden;
+            
+           
+            
+            
+        
+            
+            
+            
+        }
+        .level1{
+                padding-top: 10px;
+            }
+        .level2{
+            padding-top: 30px;
+        }  
+        .WELCOME{
+            background-color:darkcyan;
+            padding: 10px;
+            border-radius:3%;
+        }
+
+        
+        .wel{ background-color:darkcyan;
+        
+
+        }
+        .order,.level1,.level2,ul{
+            background-color:darkkhaki;
+            
+
+        }
+        .level{
+            background-color:darkkhaki;
+            padding: 20px;
+            border-radius: 3%;
+            
+        }
+        .large{
+            background: url(./homeback2.jpg);
+            width: 1530px;
+            height:720px;
+            padding: 0px;
+            display: flex;
+            justify-content: center;
+            
+
+        }
+        .main{
+            background-color:green;
+            cursor: pointer;
+            width: 90px;
+            height:15px;
+            display: flex;
+            align-items: center;
+            justify-self: center;
+        
+            
+            
+            
+        }
+        li,.text{
+            display: block;
+            color: #eee;
+            font-weight: 1000;
+        }
+        .dropdown{
+            display:none;
+            margin-top: 250px;
+            gap: 30px;
+        
+        }
+        .main:hover .dropdown{
+            display:block;
+            flex-direction: column;
+        }
+        
+        
+        
+         
+    </style>
+</head>
+<body>
+    <div class="large" >
+        <div class="main"><span class="text">> RULES</span>
+        <div class="dropdown">
+            
+            <li>each player has 5 items canon,tank,titan,ricochets,semi-ricochets.</li>
+            <li>you have to protect your titan from oppenent's canon bullet</li>
+            <li>for your each turn completion your canon will fire bullet toward opponent</li>
+            <li>if bullet hit your titan then , game over and you loose while other player win</li>
+            <li>if you will not able to execute your move within 40 second then your opponent win</li>
+
+        </div>      
+        </div>
+        <div class="homepage">
+            <div class="WELCOME" style="border: 1px solid black;"><h1 class="wel">WELCOME TO RICOCHETS-RUMBLE</h1></div>
+               <div class="level" style="border: 1px solid black;">
+                 <h1 class="order">LEVEL OF GAME</h1>
+                 <ul>
+                    <li><div class="level1"><button><a href="./normalmode.html"><h2>NORMAL MODE</h2></a></button></div></li>
+    
+                    <li><div class="level2"><button><a href="./hackermode.html"><h2>HACKER MODE</h2></a</button></div></li>
+                 </ul>
+            
+                </div>
+    
+        </div>
+    
+
+    </div>
+        
+
+    
+    
+</body>
+</html>
